@@ -1,0 +1,72 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wakebook-dev-03717-authRole",
+      "UnauthRoleArn": "arn:aws:iam::694710432912:role/amplify-wakebook-dev-03717-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::694710432912:role/amplify-wakebook-dev-03717-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-wakebook-dev-03717-deployment",
+      "UnauthRoleName": "amplify-wakebook-dev-03717-unauthRole",
+      "StackName": "amplify-wakebook-dev-03717",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:694710432912:stack/amplify-wakebook-dev-03717/8677f580-0e3b-11eb-9f51-0a475a749b56",
+      "AmplifyAppId": "dlvetc4rek2wd"
+    },
+    "categories": {
+      "function": {
+        "checkSlots": {},
+        "wakebookLayer": {
+          "deploymentBucketName": "amplify-wakebook-dev-03717-deployment",
+          "s3Key": "amplify-builds/wakebookLayer-build.zip"
+        }
+      }
+    },
+    "nonCFNdata": {
+      "function": {
+        "wakebookLayer": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "awsAccounts",
+                  "accounts": [
+                    "694710432912"
+                  ]
+                },
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "TyGedXDLE0FNymElGx2GsbaVXy7G6BpsW8lfeRIVMlE="
+            },
+            "2": {
+              "permissions": [
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "V7cMVJbk6r1qBKK/ZgROEnpTeK5+1xZ2dff2b+LcMic="
+            }
+          }
+        }
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wakebook-prod-23135-authRole",
+      "UnauthRoleArn": "arn:aws:iam::694710432912:role/amplify-wakebook-prod-23135-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::694710432912:role/amplify-wakebook-prod-23135-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-wakebook-prod-23135-deployment",
+      "UnauthRoleName": "amplify-wakebook-prod-23135-unauthRole",
+      "StackName": "amplify-wakebook-prod-23135",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:694710432912:stack/amplify-wakebook-prod-23135/52d5a0e0-1239-11eb-984a-0a432057e44a",
+      "AmplifyAppId": "dlvetc4rek2wd"
+    },
+    "categories": {
+      "function": {
+        "checkSlots": {}
+      }
+    }
+  }
+}
